@@ -1,12 +1,12 @@
 Pick at least 500 movies from rottentomatoes.com.
-Create a python notebook that scrapes as much info as possible for each movie and stores it in a csv with one line per movie.
-Create a second python notebook that reads the csv file produced by the first notebook. This second notebook should then split the rows into training and testing sets (75%-25%),
+Created a python notebook that scrapes as much info as possible for each movie and stores it in a csv with one line per movie.
+Created a second python notebook that reads the csv file produced by the first notebook. This second notebook should then split the rows into training and testing sets (75%-25%),
 trains and tunes a model for predicting a movie's AUDIENCE SCORE on the training set, and then reporting the accuracy on the testing set. 
 The Audience score should be binarized: negative if it's <50% and positive if it's >=50%. 
 ariables for Movie Data Scraping
 The following variables will be collected from Rotten Tomatoes for each movie:
 
-Title: The name of the movie.
+ Title: The name of the movie.
 Genre: The genre(s) the movie belongs to (e.g., Action, Comedy, Drama).
 Release Date: The date the movie was released.
 Director: The name of the director.
