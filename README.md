@@ -1,4 +1,3 @@
-This assignment was locked May 10 at 11:59pm.
 Pick at least 500 movies from rottentomatoes.com.
 Create a python notebook that scrapes as much info as possible for each movie and stores it in a csv with one line per movie.
 Create a second python notebook that reads the csv file produced by the first notebook. This second notebook should then split the rows into training and testing sets (75%-25%),
